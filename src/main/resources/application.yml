@@ -2,19 +2,19 @@ langchain4j:
   open-ai:
     chat-model:
       base-url: https://api.siliconflow.cn/v1
-      api-key: sk-jmovpfhvattvvhtvohquztudhyagetcsywduflfgfdmgkbzu
+      api-key:
       model-name: Qwen/Qwen2.5-72B-Instruct
       log-requests: true
       log-responses: true
     streaming-chat-model:
       base-url: https://api.siliconflow.cn/v1
-      api-key: sk-jmovpfhvattvvhtvohquztudhyagetcsywduflfgfdmgkbzu
+      api-key:
       model-name: Qwen/Qwen2.5-72B-Instruct
       log-requests: true
       log-responses: true
     embedding-model:
       base-url: https://api.siliconflow.cn/v1
-      api-key: sk-jmovpfhvattvvhtvohquztudhyagetcsywduflfgfdmgkbzu
+      api-key:
       model-name: netease-youdao/bce-embedding-base_v1
       log-requests: true
       log-responses: true
@@ -43,7 +43,7 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/interviewer?serverTimezone=Asia/Shanghai&useSSL=false&allowPublicKeyRetrieval=true
     username: root
-    password: ma470108
+    password: 1234
 
 
 
